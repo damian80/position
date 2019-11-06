@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 300vh;
+    background-color: lightgrey;
+}
+
+header {
+    height: 80vh;
+    background-image: url('city.jpg');
+    background-position: center bottom;
+    background-attachment: fixed;
+    opacity: 0.6;
+
+}
+
+h1 {
+    color: white;
+    font-size: 150px;
+    position: absolute;
+    bottom: 150px;
+    left: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+
+section {
+
+    width: 80%;
+    margin: 0 auto;
+}
